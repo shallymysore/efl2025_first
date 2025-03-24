@@ -1,0 +1,57 @@
+.player-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 90px;
+  background: linear-gradient(90.21deg, rgba(21, 18, 97, 0.5) -5.91%, rgba(0, 34, 81, 0.5) 111.58%);
+}
+
+/* Container for the AG Grid and header */
+.player-container {
+  width: 90%;
+  /* background-color: rgba(255, 255, 255, 0.295); */
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+/* Download button container */
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+/* Download button styling */
+.download-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.download-button:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* AG Grid container */
+.player-main-container {
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+

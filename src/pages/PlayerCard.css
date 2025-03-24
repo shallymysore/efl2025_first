@@ -1,0 +1,41 @@
+.player-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(90.21deg, rgba(170, 54, 124,0.5) -5.91%, rgba(74, 47, 189,0.5) 111.58%);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .player-name {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: 500;
+  }
+
+  .player-name img {
+    width: 25px; /* Adjust image size as needed */
+    height: 25px; /* Adjust image size as needed */
+    vertical-align: middle; /* Align image vertically */
+  }
+  
+  .player-country {
+    /* color: #eb0e0ec8; */
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  .player-type {
+    color: #33691e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .player-franchise {
+    color: #3f51b5; /* Deep purple color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }

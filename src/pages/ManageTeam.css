@@ -1,0 +1,67 @@
+.manageteampage{
+    margin-top: 0;
+    padding: 10px 0 0px 0;
+    background: linear-gradient(90.21deg, rgba(21, 18, 97, 0.5) -5.91%, rgba(0, 34, 81, 0.5) 111.58%);
+    height: 100vh;
+  }
+
+  .manageteampage .manageteamcontainer{
+    margin-top: 160px;
+    margin-left: 10px 20px;
+    margin-bottom: -160px;
+    background: #e19680;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+  }
+
+  .manageteampage .manageteamcontainer h1{
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .manageteampage .manageteamcontainer input{
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 15px 32px;
+  }
+
+  .manageteampage .manageteamcontainer .action-button {
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    border: none;
+    margin: 4px 2px;
+  }
+  
+  /* Add hover effect */
+  .manageteampage .manageteamcontainer .action-button:hover {
+    background-color: #3e8e41; /* Darken background on hover */
+  }
+  
+  .manageteampage .manageteamcontainer .action-button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+  
+  .manageteampage .manageteamcontainer .action-button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    transform: translateY(4px);
+  }
+
+  .manageteampage .manageteamcontaine .playertable{
+    width:85%;
+    margin-top: 25px;
+  }
